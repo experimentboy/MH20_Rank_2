@@ -40,10 +40,14 @@ Optimizing multi-class log loss to generalize well on unseen data
 # Solution Overview :
 
 [1]mh20-basline-v1 : Initial baseline using autoviml
+
 [2]mh20-fastai-v1 : Fastai with Transformers (RoBERTa) Version 1²
+
 [3]Blend_v1f : Layer 1 blender (39%[1]-61%[2])
+
 [4]mh20-fastai-v2 : Fastai with Transformers (RoBERTa) Version 2²
+
 [5]Blend_v4d : Layer 2 blender (65%[3]-35%[4])
 
 
-² : deeply inspired from https://towardsdatascience.com/fastai-with-transformers-bert-roberta-xlnet-xlm-distilbert-4f41ee18ecb2
+² : Deeply inspired by https://towardsdatascience.com/fastai-with-transformers-bert-roberta-xlnet-xlm-distilbert-4f41ee18ecb2
